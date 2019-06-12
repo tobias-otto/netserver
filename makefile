@@ -1,5 +1,5 @@
 prog: LedSteuernThreaded.o
-	gcc -o prog LedSteuernThreaded.o -lpthread -lwiringPi
+	gcc -o prog Leds.o -lpthread -lwiringPi
 
-LedSteuernThreaded.o: LedSteuernThreaded.c
-gcc -c LedSteuernThreaded.c 
+LedSteuernThreaded.o: Leds.c
+gcc -c Leds.c 
